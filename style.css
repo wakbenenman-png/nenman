@@ -1,0 +1,36 @@
+body{
+    margin: 90px;
+}
+
+.container {
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+.box1, .box2, .box3, .box4 {
+    border: 1px solid #4e2c2c;
+    height: 100px;
+    width: 200px;
+}
+#text1 {
+    
+}
+.box1 {
+    grid-column:1;
+    grid-row:1;
+}
+.box2 {
+    grid-column:3;
+    grid-row:1;
+}
+.box3 {
+    grid-column:1;
+    grid-row:2;
+}
+img {
+    width: 250px;
+    height: 260px;
+}
