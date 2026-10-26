@@ -1,0 +1,137 @@
+
+*{
+    margin-left: 10px;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    background-color: black;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+    border: 1px solid;
+    background-color: rgba(118, 12, 216, 0.801);
+}
+img{
+    height: 100px;
+}
+.box1{
+  grid-column: span 3;
+}
+.head1{
+    font-size: 40px;
+    color: beige;
+}
+.footer1{
+    background-color: rgb(230, 228, 227);
+    display: flex;
+    gap: 30px;
+}
+.box2{
+    display: flex;
+    grid-column: span 3;
+}
+.head2{
+    font-size: 50px;
+    color: rgb(118, 80, 153);
+    background-color: white;
+    rotate: -90deg;
+    margin-left: -24px;
+    width: 200px;
+    
+}
+.list2{
+    color: white;
+}
+.box3{
+    display: grid;
+    grid-column: span 1;
+    width: 100px;
+    background-color: rgb(231, 227, 235);
+    padding: 35px;
+}
+.box4{
+    display: flex;
+    grid-column: span 2;
+
+}
+.list4{
+    background-color: white;
+    width: 215px;
+    padding: 10px;
+}
+.list3{
+    background-color: white;
+;
+    
+}
+.box6{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    grid-column: span 3;
+    width: ;
+}
+.head6{
+    color: rgb(102, 40, 138);
+}
+
+.box7{
+    display: flex;
+    grid-column: span 3;
+}
+.head7{
+    color: white;
+}
+.box8{
+  display: flex;
+  grid-column: span 3;
+  
+}
+.head8{
+    color: beige;
+    font-size: 30px;
+}
+.even{
+  background-color: white;
+  border: 1px solid;
+  margin: 10px;
+  margin-top: 50px;
+}
+.look{
+    display: flex;
+}
+.imagep{
+    height: 280px;
+    width: 150px;
+}
+button{
+    background-color: rgb(112, 84, 163);
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+}
+header{
+    background-color: white;
+    display: flex;
+    width: 100 ;
+    border: 1px solid rgb(247, 245, 242);
+    padding: 20px;
+}
+#he{
+    font-size: 40px;
+    color: rgb(119, 71, 141);
+    padding: 20px;
+}
+.sleek{
+    width: 140px;
+    padding: 9px;
+    height: 270px;
+}
+span{
+ background-color: rgba(108, 83, 122, 0.795);
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 10px;
+
+}
+body{
+    background-color: rgb(206, 196, 179);
+
+}
+.main{
+    background-color: rgb(192, 183, 171);
+    margin-left: 90px;
+    width: 920px;
+        min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width:900px;
+    
+     
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+    border: 1px solid ;
+    height: 250px;
+}
+.box1{
+    grid-column: span 2;
+    background-color: rgb(250, 54, 28);
+}
+#D{
+    font-size: 40px;
+    color: white;
+}
+.box2{
+    grid-column: span 2;
+    display: flex;
+    background-color: white;
+}
+#E{
+    font-size: 30px;
+    color: rgb(230, 47, 47);
+}
+.box3{
+    display: flex;
+    grid-column: span 2;
+    background-color: rgb(250, 54, 28);
+}
+#big{
+    width: 150px;
+    margin-left: 90px;
+}
+#small{
+    width: 90px;
+    margin-left: 150px;
+}
+#n{
+    color: beige;
+}
+.box4{
+    grid-column: span 2;
+    display: flex;
+    background-color: aliceblue;
+}
+#l{
+    margin: 80px;
+}
+.box5{
+
+}
+.box6{
+    display: flex;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.box7{
+    display: flex;
+    padding: 10px;
+    background-color: aliceblue;
+
+}.box7{
+      grid-column: span 2;
+}
+img{
+    height: 100px;
+}
+.box8{
+  
+}
+.k{
+    height: 250px;
+    width: 230px;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    margin-left: 450px;
+        color: rgb(233, 19, 19);
+        padding: 50px;
+}
+#he{
+    font-size: 40px;
+}
+.im{
+    width: 100px;
+}
